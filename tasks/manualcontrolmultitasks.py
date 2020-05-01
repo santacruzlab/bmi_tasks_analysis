@@ -113,8 +113,8 @@ class ManualControlMulti(Sequence, Window):
     # have LED #0 controlling the cursor.
 
     plant_hide_rate = traits.Float(0.0, desc='If the plant is visible, specifies a percentage of trials where it will be hidden')    
-    plant_type_options = plantlist.keys()
-    plant_type = traits.OptionsList(*plantlist, bmi3d_input_options=plantlist.keys())
+    plant_type_options = list(plantlist.keys())
+    plant_type = traits.OptionsList(*plantlist, bmi3d_input_options=list(plantlist.keys()))
     plant_visible = traits.Bool(True, desc='Specifies whether entire plant is displayed or just endpoint')
     cursor_radius = traits.Float(.5, desc="Radius of cursor")
     
