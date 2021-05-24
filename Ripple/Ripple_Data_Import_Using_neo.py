@@ -14,6 +14,8 @@ Example usage to obtain the data corresponding to Ripple Neural Interface Proces
     block.segments[0].spiketrains[Ch].times  --- Spike trains
     block.segments[0].events[0].times        --- Digital input (parallel)
 
+Reference: 
+- https://neo.readthedocs.io/en/stable/core.html
 """
 from neo import io
 import numpy as np
