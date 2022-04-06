@@ -1,9 +1,9 @@
-'''
+"""
 Project: multichannel predictions of neural activity.
 Author: Kylie Hoyt
 Documentation support: Derek Chang
 Last updated: 08/29/2022
-'''
+"""
 ################### Import reauired packages ###################
 
 import matplotlib.pyplot as plt
